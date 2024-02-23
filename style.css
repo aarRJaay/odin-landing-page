@@ -36,7 +36,6 @@ a {
   color: #e5e7eb;
   display: flex;
   padding: 100px;
-  flex-direction: column;
 }
 
 .hero-text {
