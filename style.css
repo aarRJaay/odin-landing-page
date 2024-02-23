@@ -36,6 +36,7 @@ a {
   color: #e5e7eb;
   display: flex;
   padding: 100px;
+  justify-content: space-evenly;
 }
 
 .hero-text {
