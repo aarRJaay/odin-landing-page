@@ -53,6 +53,19 @@ a {
   color: #f9faf8;
 }
 
+
+.hero-sign-up-button {
+  font-weight: bold;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-top: 10px;
+  /* padding: 10px; */
+  display: flex;
+  /* font-size: 15px; */
+  justify-content: center;
+  /* align-items: center; */
+}
+
 .information-area {
   display: flex;
   justify-content: space-evenly;
@@ -122,43 +135,47 @@ a {
 
 .call-area {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 25px;
+  background-color: #3882f6;
+  padding: 50px;
+  margin: 50px;
+  color: white;
 }
 
-.outerbox {
+.innerbox {
   background-color: #3882f6;
   border-radius: 10px;
   padding: 50px;
   margin: 50px;
   color: white;
   display: flex;
+  flex-direction: column;
 
 }
 
 .call-text {
   display: flex;
   flex-direction: column;
-  margin: 25px;
+  /* margin: 25px; */
 }
 
 .call-title {
-  font-size: 36px;
+  font-size: 20px;
   font-weight: bolder;
 }
 
 .call-sub-title {
-  font-size: 30px;
+  font-size: 10px;
 }
 
 .sign-up-button {
   font-weight: bold;
   border: 2px solid white;
   border-radius: 10px;
-  margin: 50px;
   padding: 10px;
   display: flex;
-  font-size: 25px;
+  font-size: 15px;
   justify-content: center;
   align-items: center;
 }
